@@ -607,7 +607,7 @@
         &none, &kp F1,  &kp F2,  &kp F3,  &kp F4,  &kp F5,  &kp HOME,    &kp PG_UP, &none, &none,     &none,     P_RB3_FUN, P_RB4_FUN, &kp GLOBE,
                &molock, &none,   &none,   &none,   &none,   &kp END,     &kp PG_DN, &none, &none,     P_RF3_FUN, &none,     &none
       )>;
-      sensor-bindings = <&mouscrl SCRLDN SCRLUP &inc_dec_kp C_Vx22434OL_UP C_VOL_DN>;
+      sensor-bindings = <&mouscrl SCRLDN SCRLUP &inc_dec_kp C_VOL_UP C_VOL_DN>;
     };
 
     // Layer: BUTTONS
