@@ -215,12 +215,13 @@
     // Double-tap: -
     // Hold: Navigation Layer
     // Morph: with Shift => Forward delete ('⌦')
-    bspcnav: backspace_or_del_and_layer_nav {
+    spcnav: backspace_or_del_and_layer_nav {
       compatible = "zmk,behavior-mod-morph";
       #binding-cells = <0>;
-      bindings = <&hll L_NAV BSPC>, <&kp DEL>;
+      bindings = <&hll L_NAV SPACE>, <&kp DEL>;
       mods = <(MOD_LSFT|MOD_RSFT)>;
     };
+
 
     // Tap: -
     // Shift-tap: -
@@ -421,7 +422,7 @@
         &kp TAB,    &kp Q,     &kp W,     &kp E,     &kp R,    &kp T,         &kp LHYP,    &kp RHYP,  &kp Y,         &kp U,     &kp I,     &kp O,     &kp P,      &kp MINUS,
         &kp GRAVE,  LHM4(A),   LHM3(S),   LHM2(D),   LHM1(F),  &kp G,         &kp LMEH,    &kp RMEH,  &kp H,         RHM1(J),   RHM2(K),   RHM3(L),   RHM4(SEMI), &kp SQT,
         &globebslh, P_LB4_QWT, P_LB3_QWT, &kp C,     AS(V),    &kp B,         &kp HOME,    &kp PG_UP, &kp N,         &kp M,     &kp COMMA, P_RB3_QWT, P_RB4_QWT,  &hmr GLOBE EQUAL,
-                    &motg_sys, P_SF4_QWT, P_LF3_QWT, &bspcnav, &lt L_SYM ESC, &kp END,     &kp PG_DN, &lt L_MED RET, &hlr L_NUM SPACE,     P_RF3_QWT, P_SF4_QWT,  &motg_sys
+                    &motg_sys, P_SF4_QWT, P_LF3_QWT, &spcnav, &lt L_SYM ESC, &kp END,     &kp PG_DN, &lt L_MED RET, &hlr L_NUM BSPC,     P_RF3_QWT, P_SF4_QWT,  &motg_sys
       )>;
       sensor-bindings = <&mouscrl SCRLDN SCRLUP &inc_dec_kp C_VOL_UP C_VOL_DN>;
     };
@@ -447,7 +448,7 @@
         &kp TAB,    &kp Q,     &kp W,     &kp F,     &kp P,     &kp B,         &kp LHYP,    &kp RHYP,  &kp J,         &kp L,     &kp U,     &kp Y,     &kp SEMI,  &kp MINUS,
         &kp GRAVE,  LHM4(A),   LHM3(R),   LHM2(S),   LHM1(T),   &kp G,         &kp LMEH,    &kp RMEH,  &kp M,         RHM1(N),   RHM2(E),   RHM3(I),   RHM4(O),   &kp SQT,
         &globebslh, P_LB4_QWT, P_LB3_QWT, &kp C,     &kp D,     &kp V,         &kp HOME,    &kp PG_UP, &kp K,         &kp H,     &kp COMMA, P_RB3_QWT, P_RB4_QWT, &hmr GLOBE EQUAL,
-                    &motg_sys, P_SF4_QWT, P_LF3_QWT, &bspcnav,  &lt L_SYM ESC, &kp END,     &kp PG_DN, &lt L_MED RET, &hlr L_NUM SPACE,     P_RF3_QWT, P_SF4_QWT, &motg_sys
+                    &motg_sys, P_SF4_QWT, P_LF3_QWT, &spcnav,  &lt L_SYM ESC, &kp END,     &kp PG_DN, &lt L_MED RET, &hlr L_NUM BSPC,     P_RF3_QWT, P_SF4_QWT, &motg_sys
       )>;
       sensor-bindings = <&mouscrl SCRLDN SCRLUP &inc_dec_kp C_VOL_UP C_VOL_DN>;
     };
