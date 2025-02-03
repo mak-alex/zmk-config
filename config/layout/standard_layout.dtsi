@@ -279,9 +279,8 @@
     motg_mou: momentary_or_toggle_layer_mou {
       compatible = "zmk,behavior-mod-morph";
       #binding-cells = <0>;
-      tapping-term-ms = <200>;
-      bindings = <&hll L_MOU ESC>, <&tog L_MOU>;
-      // mods = <(MOD_LSFT|MOD_RSFT)>;
+      bindings = <&hll L_MOU ESC>, <&kp DEL>
+      mods = <(MOD_LSFT|MOD_RSFT)>;
     };
 
     // Tap: Backslash ('\')
