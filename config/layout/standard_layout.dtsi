@@ -210,26 +210,6 @@
 // changes.
 / {
   behaviors {
-    toggle_eink: toggle_eink {
-        compatible = "zmk,behavior-toggle";
-        label = "TOGGLE_EINK";
-        #binding-cells = <0>;
-        bindings = <&eink_off>, <&eink_on>;
-    };
-
-    eink_off: eink_off {
-        compatible = "zmk,behavior-none";
-        label = "EINK_OFF";
-        #binding-cells = <0>;
-        bindings = <&display_suspend>;
-    };
-
-    eink_on: eink_on {
-        compatible = "zmk,behavior-none";
-        label = "EINK_ON";
-        #binding-cells = <0>;
-        bindings = <&display_resume>;
-    };
     // Tap: Backspace
     // Shift-tap: -
     // Double-tap: -
@@ -674,7 +654,7 @@
       display-name = "System";
       bindings = <LAYER_ADAPTER(
         &none,       &none,           &none,           &none,           &none,   &none,                                     &none,        &none,        &none,        &none,        &none,         &none,
-        &bootloader, &rgb_ug RGB_HUI, &rgb_ug RGB_SAI, &rgb_ug RGB_BRI, &bl_inc, &ext_power EP_TOG, &kp LHYP,    &kp RHYP,  &none,        &none,        &none,        &none,        TOGGLE_EINK,         &bootloader,
+        &bootloader, &rgb_ug RGB_HUI, &rgb_ug RGB_SAI, &rgb_ug RGB_BRI, &bl_inc, &ext_power EP_TOG, &kp LHYP,    &kp RHYP,  &none,        &none,        &none,        &none,        none,         &bootloader,
         &sys_reset,  &rgb_ug RGB_HUD, &rgb_ug RGB_SAD, &rgb_ug RGB_BRD, &bl_dec, &out OUT_TOG,      &kp LMEH,    &kp RMEH,  &none,        &none,        &none,        &none,        &none,         &sys_reset,
         &none,       &rgb_ug RGB_TOG, &ug_reset,       &none,           &none,   &kp C_PWR,         &kp HOME,    &kp PG_UP, &bt BT_SEL 0, &bt BT_SEL 1, &bt BT_SEL 2, &bt BT_SEL 3, &bt BT_SEL 4,  &bt BT_CLR,
                      LOCK_SYS_LAYER,  &none,           &none,           &none,   &tog L_CMK,        &kp END,     &kp PG_DN, &none,        &none,        &none,        &none,        LOCK_SYS_LAYER

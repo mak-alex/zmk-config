@@ -83,5 +83,3 @@
 #define NAV_LG_V &kp LG(V)
 #define NAV_LG_G &kp LG(G)
 #endif
-
-#define TOGGLE_EINK &toggle_eink
