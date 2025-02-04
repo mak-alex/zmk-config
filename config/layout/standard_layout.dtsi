@@ -216,18 +216,19 @@
         #binding-cells = <0>;
         bindings = <&eink_off>, <&eink_on>;
     };
+
     eink_off: eink_off {
         compatible = "zmk,behavior-none";
         label = "EINK_OFF";
         #binding-cells = <0>;
-        bindings = <&display_disable>;
+        bindings = <&display_suspend>;
     };
 
     eink_on: eink_on {
         compatible = "zmk,behavior-none";
         label = "EINK_ON";
         #binding-cells = <0>;
-        bindings = <&display_enable>;
+        bindings = <&display_resume>;
     };
     // Tap: Backspace
     // Shift-tap: -
