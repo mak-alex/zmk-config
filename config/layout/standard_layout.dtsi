@@ -239,13 +239,7 @@
     // Shift-tap: -
     // Double-tap: Toggle System Layer
     // Hold: Activate System Layer
-    // Morph: -
-    // motg_sys: momentary_or_toggle_layer_sys {
-    //   compatible = "zmk,behavior-tap-dance";
-    //   #binding-cells = <0>;
-    //   tapping-term-ms = <200>;
-    //   bindings = <&mo L_SYS>, <&tog L_SYS>;
-    // };
+    // Morph: with Shift => Forward delete ('⌦')
     motg_sys: esc_or_del_and_layer_sys {
       compatible = "zmk,behavior-mod-morph";
       #binding-cells = <0>;
