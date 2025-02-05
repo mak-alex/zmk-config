@@ -8,6 +8,8 @@ manifest:
       url-base: https://github.com/dhruvinsh
     - name: rolio
       url-base: https://github.com/Townk
+    - name: m165437 #new entry
+      url-base: https://github.com/M165437
   projects:
     - name: zephyr
       remote: zmkfirmware
@@ -48,5 +50,8 @@ manifest:
       revision: develop
       clone-depth: 1
       path: .west/repos/zmk-rolio-shield
+    - name: nice-view-gem #new entry
+      remote: m165437 #new entry
+      revision: main #new entry
   self:
     path: config
