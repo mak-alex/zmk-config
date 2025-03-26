@@ -8,8 +8,8 @@ manifest:
       url-base: https://github.com/dhruvinsh
     - name: rolio
       url-base: https://github.com/Townk
-    - name: totem
-      url-base: https://github.com/GEIGEIGEIST
+    # - name: totem
+    #   url-base: https://github.com/GEIGEIGEIST
     - name: m165437
       url-base: https://github.com/M165437
   projects:
@@ -50,7 +50,7 @@ manifest:
       remote: rolio
       revision: develop
       clone-depth: 1
-    # - name: zmk-totem-shield
+    # - name: zmk-config-totem
     #   remote: totem
     #   revision: main
     #   clone-depth: 1
