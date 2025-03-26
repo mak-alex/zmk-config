@@ -1,8 +1,4 @@
-/*
- * Copyright (c) 2024 Thiago Alves
- *
- * SPDX-License-Identifier: MIT
- */
+
 
 // This Autoshift behavior was extracted from the official ZMK documentation. I
 // tweak its options to fit me better, but nothing in here should be credited

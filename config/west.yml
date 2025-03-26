@@ -8,7 +8,9 @@ manifest:
       url-base: https://github.com/dhruvinsh
     - name: rolio
       url-base: https://github.com/Townk
-    - name: m165437 #new entry
+    - name: totem
+      url-base: https://github.com/GEIGEIGEIST
+    - name: m165437
       url-base: https://github.com/M165437
   projects:
     - name: zephyr
@@ -50,6 +52,11 @@ manifest:
       revision: develop
       clone-depth: 1
       path: .west/repos/zmk-rolio-shield
+    - name: zmk-totem-shield
+      remote: totem
+      revision: main
+      clone-depth: 1
+      path: .west/repos/zmk-totem-shield
     - name: nice-view-gem #new entry
       remote: m165437 #new entry
       revision: main #new entry

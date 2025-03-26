@@ -1,8 +1,4 @@
-/*
- * Copyright (c) 2024 Thiago Alves
- *
- * SPDX-License-Identifier: MIT
- */
+
 
 // The next defines are helpers to describe a home row modifiers by a numerical
 // importance. Smaller numbers are _more important_ then the others.

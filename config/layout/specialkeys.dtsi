@@ -1,8 +1,4 @@
-/*
- * Copyright (c) 2024 Thiago Alves
- *
- * SPDX-License-Identifier: MIT
- */
+
 
 // Hyper Key: ⇧ ⌥ ^ ⌘ (Shift + Alt + Control + Command)
 #define LEFT_HYPER             LS(LA(LC(LGUI)))

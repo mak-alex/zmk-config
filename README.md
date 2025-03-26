@@ -25,6 +25,7 @@ Currently, in this repository, I have layout for:
 - [Corne (6 columns)](docs/corne.md)
 - [Rolio46.2](docs/rolio.md)
 - [Lily58](docs/lily58.md)
+- [Totem](docs/totem.md)
 
 If you did not click on any of the layout links yet, there is some general
 information I would like you to have to help you understand them better.

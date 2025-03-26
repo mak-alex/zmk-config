@@ -1,0 +1,63 @@
+
+
+/**
+ * TOTEM Key Position Definition
+ * -----------------------------
+ * ╭───────────────────────╮
+ * │ LT3 LT2 LT1 LT0 ────┬── RT0 RT1 RT2 RT3 │
+ * │ LM3 LM2 LM1 LM0 ────┤── RM0 RM1 RM2 RM3 │
+ * │ LB3 LB2 LB1 LB0 ────┤── RB0 RB1 RB2 RB3 │
+ * │         LF1 LF0 ────┤── RF0 RF1         │
+ * ╰───────────────────────╯
+ *
+ * TOTEM Layout (38 keys)
+ */
+
+#pragma once
+
+#define LT0  3  // Left-top row
+#define LT1  2
+#define LT2  1
+#define LT3  0
+
+#define RT0  4  // Right-top row
+#define RT1  5
+#define RT2  6
+#define RT3  7
+
+#define LM0 11  // Left-middle row
+#define LM1 10
+#define LM2  9
+#define LM3  8
+
+#define RM0 12  // Right-middle row
+#define RM1 13
+#define RM2 14
+#define RM3 15
+
+#define LB0 19  // Left-bottom row
+#define LB1 18
+#define LB2 17
+#define LB3 16
+
+#define RB0 20  // Right-bottom row
+#define RB1 21
+#define RB2 22
+#define RB3 23
+
+#define LF0 25  // Left thumb keys
+#define LF1 24
+
+#define RF0 26  // Right thumb keys
+#define RF1 27
+
+// All keys on the left side excluding thumbs
+#define KEYS_L LT0 LT1 LT2 LT3 LM0 LM1 LM2 LM3 LB0 LB1 LB2 LB3
+
+// All keys on the right side excluding thumbs
+#define KEYS_R RT0 RT1 RT2 RT3 RM0 RM1 RM2 RM3 RB0 RB1 RB2 RB3
+
+// Thumb cluster keys
+#define THUMB_L LF0 LF1
+#define THUMB_R RF0 RF1
+#define THUMBS THUMB_L THUMB_R
