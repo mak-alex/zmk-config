@@ -73,17 +73,3 @@ include:
     shield: settings_reset
     artifact-name: zmk-lily58-settings-reset
 
-  # Totem Firmware
-  # - keyboard: Totem
-  #   board: seeeduino_xiao_ble
-  #   shield: totem_left
-  #   artifact-name: zmk-totem-left
-  # - keyboard: Totem
-  #   board: seeeduino_xiao_ble
-  #   shield: totem_right 
-  #   artifact-name: zmk-totem-right
-  # - keyboard: Totem
-  #   board: seeeduino_xiao_ble
-  #   shield: settings_reset
-  #   artifact-name: zmk-totem-settings-reset
-
