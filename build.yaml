@@ -75,15 +75,15 @@ include:
 
   # Totem Firmware
   - keyboard: Totem
-    board: nice_nano_v2
+    board: seeeduino_xiao_ble
     shield: totem_left nice_view_adapter nice_view
     artifact-name: zmk-totem-left
   - keyboard: Totem
-    board: nice_nano_v2
+    board: seeeduino_xiao_ble
     shield: totem_right nice_view_adapter nice_view
     artifact-name: zmk-totem-right
   - keyboard: Totem
-    board: nice_nano_v2
+    board: seeeduino_xiao_ble
     shield: settings_reset
     artifact-name: zmk-totem-settings-reset
 
