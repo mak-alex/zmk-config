@@ -49,6 +49,7 @@ manifest:
       remote: rolio
       revision: develop
       clone-depth: 1
+      path: .west/repos/zmk-rolio-shield
     - name: nice-view-gem
       remote: m165437
       revision: main
