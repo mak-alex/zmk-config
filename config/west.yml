@@ -43,8 +43,6 @@ manifest:
     - name: zmk-tri-state
       remote: dhruvinsh
       revision: main
-      clone-depth: 1
-      path: .west/repos/zmk-tri-state
     - name: zmk-rolio-shield
       remote: rolio
       revision: develop
