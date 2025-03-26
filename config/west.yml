@@ -50,11 +50,11 @@ manifest:
       remote: rolio
       revision: develop
       clone-depth: 1
-    - name: zmk-totem-shield
-      remote: totem
-      revision: main
-      clone-depth: 1
-      path: app/shields/totem
+    # - name: zmk-totem-shield
+    #   remote: totem
+    #   revision: main
+    #   clone-depth: 1
+    #   path: app/shields/totem
     - name: nice-view-gem #new entry
       remote: m165437 #new entry
       revision: main #new entry
