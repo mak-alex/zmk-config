@@ -10,6 +10,8 @@ manifest:
       url-base: https://github.com/Townk
     - name: m165437
       url-base: https://github.com/M165437
+    - name: totem
+      url-base: https://github.com/GEIGEIGEIST
   projects:
     - name: zephyr
       remote: zmkfirmware
@@ -51,5 +53,10 @@ manifest:
     - name: nice-view-gem
       remote: m165437
       revision: main
+    - name: zmk-totem-shield
+      remote: totem
+      revision: main
+      clone-depth: 1
+      path: .west/repos/zmk-totem-shield
   self:
     path: config
