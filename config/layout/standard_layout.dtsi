@@ -412,7 +412,7 @@
     //         │   󰎺   │   󰎷   │ ⎋ ┊ 󰎯 │ 󰌒 ┊ 󰎥 │ 󱁐 ┊ 󰎫 │ └───────╯  ╰───────┘ │ ⏎ ┊ 󰎲 │ 󰭜 ┊ 󰎨 │ ⎋ ┊ 󰎴 │   󰎷   │   󰎺   │
     //         ╰───────┴───────┴───────┴───────┴───────┘                      └───────┴───────┴───────┴───────┴───────╯
     MAIN {
-      display-name = "mBAS";
+      display-name = "QWERTY";
       bindings = <LAYER_ADAPTER(
         &lbktgrave, &kp_rN1,   &kp_rN2,   &kp_rN3,   &kp_rN4,  &kp_rN5,                               &kp_rN6,       &kp_rN7,   &kp_rN8,   &kp_rN9,   &kp_rN0,    &kp RBKT,
         &kp TAB,    &kp Q,     &kp W,     &kp E,     &kp R,    &kp T,         &kp LHYP,    &kp RHYP,  &kp Y,         &kp U,     &kp I,     &kp O,     &kp P,      &kp MINUS,
@@ -438,7 +438,7 @@
     //         │   󰎺   │   󰎷   │ ⎋ ┊ 󰎯 │ 󰌒 ┊ 󰎥 │ 󱁐 ┊ 󰎫 │ └───────╯  ╰───────┘ │ ⏎ ┊ 󰎲 │ 󰭜 ┊ 󰎨 │ ⎋ ┊ 󰎴 │   󰎷   │   󰎺   │
     //         ╰───────┴───────┴───────┴───────┴───────┘                      └───────┴───────┴───────┴───────┴───────╯
     COLEMAK {
-      display-name = "mCMK";
+      display-name = "COLEMAK";
       bindings = <LAYER_ADAPTER(
         &lbktgrave, &kp_rN1,   &kp_rN2,   &kp_rN3,   &kp_rN4,   &kp_rN5,                               &kp_rN6,       &kp_rN7,   &kp_rN8,   &kp_rN9,   &kp_rN0,   &kp RBKT,
         &kp TAB,    &kp Q,     &kp W,     &kp F,     &kp P,     &kp B,         &kp LHYP,    &kp RHYP,  &kp J,         &kp L,     &kp U,     &kp Y,     &kp SEMI,  &kp MINUS,
@@ -464,7 +464,7 @@
     //         │       │       │       │ -=〿=- │       │ └───────╯  ╰───────┘ │       │       │       │       │   󰍁   │
     //         ╰───────┴───────┴───────┴───────┴───────┘                      └───────┴───────┴───────┴───────┴───────╯
     NAV {
-      display-name = "mNAV";
+      display-name = "Navigation";
       bindings = <LAYER_ADAPTER(
         &appPwinN,  &kp LG(N1),  &kp LG(N2),  &kp LG(N3),  &kp LG(N4),  &kp LG(N5),                         &none, &kp BTAB,     &kp MAC_FDPRV, &kp MAC_FDNXT, &kp TAB,      &none,
         &appswtnxt, &kp LG(Q),   &kp LG(W),   &kp LG(E),   &kp LG(R),   &kp LG(T),  &kp LHYP,    &kp RHYP,  &none, &kp HOME,     &kp PG_DN,     &kp PG_UP,     &kp END,      &none,
@@ -490,7 +490,7 @@
     //         │   󰍁   │       │   ,   │   󰭜   │   󱁐   │ └───────╯  ╰───────┘ │       │ -=〿=- │       │       │       │
     //         ╰───────┴───────┴───────┴───────┴───────┘                      └───────┴───────┴───────┴───────┴───────╯
     NUM {
-      display-name = "mNUM";
+      display-name = "Numbers";
       bindings = <LAYER_ADAPTER(
         &none,        &kp LBKT, &kp STAR, &kp FSLH,  &kp RBKT,    &kp CARET,                          &none, &none,      &none,     &none,     &none,     &none,
         &kp TAB,      &kp N1,   &kp N2,   &kp N3,    &kp N4,      &kp N5,     &kp LHYP,    &kp RHYP,  &kp N6,   &kp N7,   &kp N8,    &kp N9,      &kp N0,     &none,
@@ -516,7 +516,7 @@
     //         │       │       │       │       │ -=〿=- │ └───────╯  ╰───────┘ │   @   │   󱁐   │       │       │   󰍁   │
     //         ╰───────┴───────┴───────┴───────┴───────┘                      └───────┴───────┴───────┴───────┴───────╯
     SYMBOL {
-      display-name = "mSYM";
+      display-name = "Symbols";
       bindings = <LAYER_ADAPTER(
         &none,     &none,     &none,     &none,     &none,     &none,                              &kp QMARK, &kp PLUS,  &kp MINUS, &kp DOT,  &kp FSLH,  &kp BSLH,
         &none,     &none,     &none,     &kp PLUS,  &kp MINUS,     &none,      &kp LHYP,    &kp RHYP,  &kp AMPS,  &kp LT,    &kp EQUAL, &kp GT,   &kp PIPE,  &kp HASH,
@@ -543,7 +543,7 @@
     //         ╰───────┴───────┴───────┴───────┴───────┘                      └───────┴───────┴───────┴───────┴───────╯
     MEDIA {
       // &rgb_ug RGB_TOG
-      display-name = "mMED";
+      display-name = "Media";
       bindings = <LAYER_ADAPTER(
         &none,        &none,        &none,      &none,    &none,      &none,                              &none,      &none,     &none,     &none,     &none,     &none,
         &kp C_VOL_UP, &kp C_BRI_UP, &none,      &none,    &none,      &none,      &kp LHYP,    &kp RHYP,  &none,      &none,     &none,     &none,     &none,     &none,
@@ -569,7 +569,7 @@
     //         │       │       │ -=〿=- │       │       │ └───────╯  ╰───────┘ │  R 󰍽  │  L 󰍽  │  M 󰍽  │       │   󰍁   │
     //         ╰───────┴───────┴───────┴───────┴───────┘                      └───────┴───────┴───────┴───────┴───────╯
     MOUSE {
-      display-name = "mMOU";
+      display-name = "Mouse";
       bindings = <LAYER_ADAPTER(
         &none,     &none,     &none,     &none,     &none,     &none,                            &none,     &none,         &none,         &none,         &none,          &none,
         &none,     &mkp MB4,  &mkp MB3,  &mkp MB2,  &mkp MB1,  &mkp MB5, &kp LHYP,    &kp RHYP,  &none,     &kp MAC_CUT,   &kp MAC_COPY,  &kp MAC_PASTE, &kp MAC_UNDO,   &none,
@@ -595,7 +595,7 @@
     //         │   󰍁   │       │       │       │       │ └───────╯  ╰───────┘ │       │       │ -=〿=- │       │       │
     //         ╰───────┴───────┴───────┴───────┴───────┘                      └───────┴───────┴───────┴───────┴───────╯
     FUNCTIONS {
-      display-name = "mFUN";
+      display-name = "Functions";
       bindings = <LAYER_ADAPTER(
         &none, &none, &none, &none, &kp F19, &kp F20,                         &none, &none,     &none,     &none,     &none,     &none,
         &kp F1, &kp F2, &kp F3, &kp F4, &kp F5, &kp F6, &kp LHYP,    &kp RHYP,  &kp F7,  &kp F8,  &kp F9,  &kp F10,     &kp F11, &kp F12,
@@ -621,7 +621,7 @@
     //         │   󰍁   │ -=〿=- │       │       │       │ └───────╯  ╰───────┘ │       │       │       │ -=〿=- │   󰍁   │
     //         ╰───────┴───────┴───────┴───────┴───────┘                      └───────┴───────┴───────┴───────┴───────╯
     BUTTON {
-      display-name = "mBTN";
+      display-name = "Buttons";
       bindings = <LAYER_ADAPTER(
         &none,              &kp BTAB,     &kp MAC_FDPRV, &kp MAC_FDNXT, &kp TAB,       &kp MAC_LP,                             &kp MAC_LP,     &kp BTAB,      &kp MAC_FDPRV, &kp MAC_FDNXT, &kp TAB,      &none,
         &none,              &kp MAC_DKTP, &kp MAC_WINP,  &kp MAC_WINN,  &kp MAC_DKTN,  &kp MAC_APPWIN, &kp LHYP,    &kp RHYP,  &kp MAC_APPWIN, &kp MAC_DKTP,  &kp MAC_WINP,  &kp MAC_WINN,  &kp MAC_DKTN, &kp RG(PLUS),
@@ -647,7 +647,7 @@
     //         │ -=󰍁=- │       │       │       │   󰌓   │ └───────╯  ╰───────┘ │       │       │       │       │ -=󰍁=- │
     //         ╰───────┴───────┴───────┴───────┴───────┘                      └───────┴───────┴───────┴───────┴───────╯
     SYSTEM {
-      display-name = "mSYS";
+      display-name = "System";
       bindings = <LAYER_ADAPTER(
         &none,       &none,           &none,           &none,           &none,   &none,                                     &none,        &none,        &none,        &none,        &none,         &none,
         &bootloader, &rgb_ug RGB_HUI, &rgb_ug RGB_SAI, &rgb_ug RGB_BRI, &bl_inc, &ext_power EP_TOG, &kp LHYP,    &kp RHYP,  &none,        &none,        &none,        &none,        &none,         &bootloader,
