@@ -4,8 +4,8 @@ manifest:
       url-base: https://github.com/Townk
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: mak-alex
-      url-base: https://github.com/mak-alex
+    - name: duanexavierbondad
+      url-base: https://github.com/duanexavierbondad
     - name: rolio
       url-base: https://github.com/Townk
     - name: m165437
@@ -41,7 +41,7 @@ manifest:
       clone-depth: 1
       import: app/west.yml
     - name: zmk-tri-state
-      remote: mak-alex
+      remote: duanexavierbondad
       revision: main
     - name: zmk-rolio-shield
       remote: rolio
