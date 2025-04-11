@@ -57,5 +57,6 @@ manifest:
       remote: totem
       revision: main
       path: modules/zmk-totem-shield
+      url: https://github.com/GEIGEIGEIST/zmk-config-totem
   self:
     path: config
