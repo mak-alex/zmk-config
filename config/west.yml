@@ -54,7 +54,7 @@ manifest:
       remote: m165437
       revision: main
     - name: zmk-config-totem
-      remote: totem
+      remote: zmk-config-totem
       revision: main
       clone-depth: 1
   self:
