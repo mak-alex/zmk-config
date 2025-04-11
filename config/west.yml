@@ -57,6 +57,7 @@ manifest:
       remote: totem
       revision: master
       clone-depth: 1
-      path: .west/repos/zmk-config-totem/boards/shields
+      path: .west/repos/zmk-config-totem
+
   self:
     path: config
