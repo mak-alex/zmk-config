@@ -10,10 +10,8 @@ manifest:
       url-base: https://github.com/Townk
     - name: m165437
       url-base: https://github.com/M165437
-    - name: totem
-      url-base: https://github.com/GEIGEIGEIST/
     - name: zmk-config-totem
-      url-base: https://github.com/GEIGEIGEIST/zmk-config-totem 
+      url-base: https://github.com/GEIGEIGEIST/
   projects:
     - name: zephyr
       remote: zmkfirmware
