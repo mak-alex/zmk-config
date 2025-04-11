@@ -1,4 +1,5 @@
 
+
 // This file contains helpers for the map layout generation. If you're not
 // interested on the Keymap-Drawer configuration I use, you can safely skip
 // this file.
@@ -70,7 +71,12 @@
 #define NAV_LG_V &navcmdv
 #define NAV_LG_G &navcmdg
 #else
+#else
+#if defined(CONFIG_USE_MOLOCK)
 #define LOCK_SYS_LAYER &molock
+#else
+#define LOCK_SYS_LAYER &tog L_SYS
+#endif
 #define UNDO_TOG_BUT_LAYER &kp MAC_UNDO
 #define NAV_LG_Z &kp LG(Z)
 #define NAV_LG_X &kp LG(X)
