@@ -1,4 +1,3 @@
-#include <behaviors/molock.dtsi>
 
 // This file contains helpers for the map layout generation. If you're not
 // interested on the Keymap-Drawer configuration I use, you can safely skip
