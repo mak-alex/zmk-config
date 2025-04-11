@@ -1,9 +1,18 @@
-// Totem ZMK Keymap
 
-// 1. Подключение макросов расположения клавиш
+
+// A Keyboard Keymap has 2 responsibilities in this layout system:
+//
+// 1. Include the correct key positions definition from the `keypos_def`
+//    directory;
+// 2. Define a macro function called `LAYER_ADAPTER` that receives 60 arguments
+//    (one per key in the layout), and replace by the keyboard's physical layout
+//    shape;
+//
+// After this is done, you need to import the standard layout file, so it can
+// create the keymap using the macro function you previously created.
+
 #include "keypos_def/totem.dtsi"
 
-// 2. Определение адаптера слоя для привязки 38 клавиш к физическим позициям
 // Define the layer adapter function for the Corne
 #define LAYER_ADAPTER(                                                    \
     k00, k01, k02, k03, k04, k05,           k06, k07, k08, k09, k0A, k0B, \
@@ -17,15 +26,13 @@
                  k31 k32 k33 k34 k35    k38 k39 k3A k3B k3C               \
                          k40 k43 k44    k47 k48 k4B
 
-// 3. Опциональные настройки
 #define COMBO_KEY_CAPS_WORD  <LM1 RM1>
 
 #define USE_HOLD_TAP_LAYER_BUTTONS
 #define USE_HOLD_TAP_LAYER_FUNCTIONS
-// #define USE_HOLD_TAP_LAYER_MOUSE
+#define USE_HOLD_TAP_LAYER_MOUSE
 
 #define ZMK_MOUSE_DEFAULT_MOVE_VAL 1000
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 35
 
-// 4. Импорт стандартного макроса layout-рендера
 #include "layout/standard_layout.dtsi"
