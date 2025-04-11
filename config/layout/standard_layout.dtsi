@@ -14,7 +14,6 @@
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/rgb.h>
-#include <behaviors/molock.dtsi>
 
 #include "specialkeys.dtsi"
 #include "homerowmods.dtsi"
