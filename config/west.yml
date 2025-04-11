@@ -53,9 +53,9 @@ manifest:
     - name: nice-view-gem
       remote: m165437
       revision: main
-    - name: zmk-config-totem
-      remote: zmk-config-totem
-      revision: main
-      clone-depth: 1
+    # - name: zmk-config-totem
+    #   remote: zmk-config-totem
+    #   revision: main
+    #   clone-depth: 1
   self:
     path: config
