@@ -1,63 +1,74 @@
-
-
-/**
- * TOTEM Key Position Definition
- * -----------------------------
- * ╭───────────────────────╮
- * │ LT3 LT2 LT1 LT0 ────┬── RT0 RT1 RT2 RT3 │
- * │ LM3 LM2 LM1 LM0 ────┤── RM0 RM1 RM2 RM3 │
- * │ LB3 LB2 LB1 LB0 ────┤── RB0 RB1 RB2 RB3 │
- * │         LF1 LF0 ────┤── RF0 RF1         │
- * ╰───────────────────────╯
+/*
+ * Totem Split Keyboard Layout
+ * Inspired by GEIGEIGEIST's ZMK config
  *
- * TOTEM Layout (38 keys)
+ * Top    ╭────┬────┬────┬────┬────┬────╮      ╭────┬────┬────┬────┬────┬────╮
+ *        │LT5 │LT4 │LT3 │LT2 │LT1 │LT0 │      │RT0 │RT1 │RT2 │RT3 │RT4 │RT5 │
+ * Middle │LM5 │LM4 │LM3 │LM2 │LM1 │LM0 │      │RM0 │RM1 │RM2 │RM3 │RM4 │RM5 │
+ * Bottom │LB5 │LB4 │LB3 │LB2 │LB1 │LB0 │      │RB0 │RB1 │RB2 │RB3 │RB4 │RB5 │
+ * Thumb  ╰────┴────┴────╮           ╭────┬────┬────╯      ╰────┴────┴────╯
+ *                      │LF2│LF1│LF0│      │RF0│RF1│RF2│
  */
 
-#pragma once
+ #pragma once
 
-#define LT0  3  // Left-top row
-#define LT1  2
-#define LT2  1
-#define LT3  0
+ #define LT0  5
+ #define LT1  4
+ #define LT2  3
+ #define LT3  2
+ #define LT4  1
+ #define LT5  0
 
-#define RT0  4  // Right-top row
-#define RT1  5
-#define RT2  6
-#define RT3  7
+ #define RT0  6
+ #define RT1  7
+ #define RT2  8
+ #define RT3  9
+ #define RT4 10
+ #define RT5 11
 
-#define LM0 11  // Left-middle row
-#define LM1 10
-#define LM2  9
-#define LM3  8
+ #define LM0 17
+ #define LM1 16
+ #define LM2 15
+ #define LM3 14
+ #define LM4 13
+ #define LM5 12
 
-#define RM0 12  // Right-middle row
-#define RM1 13
-#define RM2 14
-#define RM3 15
+ #define RM0 18
+ #define RM1 19
+ #define RM2 20
+ #define RM3 21
+ #define RM4 22
+ #define RM5 23
 
-#define LB0 19  // Left-bottom row
-#define LB1 18
-#define LB2 17
-#define LB3 16
+ #define LB0 29
+ #define LB1 28
+ #define LB2 27
+ #define LB3 26
+ #define LB4 25
+ #define LB5 24
 
-#define RB0 20  // Right-bottom row
-#define RB1 21
-#define RB2 22
-#define RB3 23
+ #define RB0 30
+ #define RB1 31
+ #define RB2 32
+ #define RB3 33
+ #define RB4 34
+ #define RB5 35
 
-#define LF0 25  // Left thumb keys
-#define LF1 24
+ #define LF0 38
+ #define LF1 37
+ #define LF2 36
 
-#define RF0 26  // Right thumb keys
-#define RF1 27
+ #define RF0 39
+ #define RF1 40
+ #define RF2 41
 
-// All keys on the left side excluding thumbs
-#define KEYS_L LT0 LT1 LT2 LT3 LM0 LM1 LM2 LM3 LB0 LB1 LB2 LB3
+ // All keys on the left side of the keyboard excluding thumb keys
+ #define KEYS_L LT0 LT1 LT2 LT3 LT4 LT5 LM0 LM1 LM2 LM3 LM4 LM5 LB0 LB1 LB2 LB3 LB4 LB5
 
-// All keys on the right side excluding thumbs
-#define KEYS_R RT0 RT1 RT2 RT3 RM0 RM1 RM2 RM3 RB0 RB1 RB2 RB3
+ // All keys on the right side of the keyboard excluding thumb keys
+ #define KEYS_R RT0 RT1 RT2 RT3 RT4 RT5 RM0 RM1 RM2 RM3 RM4 RM5 RB0 RB1 RB2 RB3 RB4 RB5
 
-// Thumb cluster keys
-#define THUMB_L LF0 LF1
-#define THUMB_R RF0 RF1
-#define THUMBS THUMB_L THUMB_R
+ // Thumb cluster keys
+ #define THUMB_L LF2 LF1 LF0
+ #define THUMB_R RF0 RF1 RF2
+ #define THUMBS THUMB_L THUMB_R
