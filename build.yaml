@@ -75,11 +75,11 @@ include:
 
   # Totem Firmware
   - keyboard: Totem
-    board: seeeduino_xiao
+    board: seeeduino_xiao_ble
     shield: totem_left
     artifact-name: zmk-totem-left
   - keyboard: Totem
-    board: seeeduino_xiao
+    board: seeeduino_xiao_ble
     shield: totem_right
     artifact-name: zmk-totem-right
   - keyboard: Totem
