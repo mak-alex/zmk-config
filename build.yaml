@@ -77,12 +77,13 @@ include:
   - keyboard: Totem
     board: seeeduino_xiao
     shield: totem_left
-    cmake-args: -DEXTRA_CONF_FILE=config/boards/shields/totem/totem_left.conf
+    cmake-args: -DEXTRA_CONF_FILE=../../config/boards/shields/totem/totem_left.conf
     artifact-name: zmk-totem-left
+
   - keyboard: Totem
     board: seeeduino_xiao
     shield: totem_right
-    cmake-args: -DEXTRA_CONF_FILE=config/boards/shields/totem/totem_right.conf
+    cmake-args: -DEXTRA_CONF_FILE=../../config/boards/shields/totem/totem_right.conf
     artifact-name: zmk-totem-right
   - keyboard: Totem
     board: seeeduino_xiao_ble
