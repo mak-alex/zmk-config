@@ -70,7 +70,7 @@
 #define NAV_LG_V &navcmdv
 #define NAV_LG_G &navcmdg
 #else
-#define LOCK_SYS_LAYER &molock
+#define LOCK_SYS_LAYER &trans
 #define UNDO_TOG_BUT_LAYER &kp MAC_UNDO
 #define NAV_LG_Z &kp LG(Z)
 #define NAV_LG_X &kp LG(X)
