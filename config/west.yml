@@ -57,6 +57,6 @@ manifest:
       remote: totem
       revision: master
       clone-depth: 1
-      path: config
+      path: config/boards/shield/totem
   self:
     path: config
