@@ -19,7 +19,7 @@
       compatible = "zmk,behavior-macro";
       #binding-cells = <0>;
 #if defined(USE_MOLOCK)
-      bindings = <&tog L_SYS>; // <&molock>;
+      bindings = <&molock>;
 #else
       bindings = <&tog L_SYS>;
 #endif
@@ -70,7 +70,7 @@
 #define NAV_LG_V &navcmdv
 #define NAV_LG_G &navcmdg
 #else
-#define LOCK_SYS_LAYER &trans
+#define LOCK_SYS_LAYER &molock
 #define UNDO_TOG_BUT_LAYER &kp MAC_UNDO
 #define NAV_LG_Z &kp LG(Z)
 #define NAV_LG_X &kp LG(X)
