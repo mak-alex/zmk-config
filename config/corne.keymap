@@ -12,7 +12,6 @@
 // create the keymap using the macro function you previously created.
 
 #include "keypos_def/corne.dtsi"
-#include <behaviors/molock.dtsi>
 
 // Configure the under-glow LED strip
 &led_strip {
