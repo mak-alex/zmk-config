@@ -19,7 +19,7 @@
       compatible = "zmk,behavior-macro";
       #binding-cells = <0>;
 #if defined(USE_MOLOCK)
-      bindings = <&molock>;
+      bindings = <&tog L_SYS>; // <&molock>;
 #else
       bindings = <&tog L_SYS>;
 #endif
