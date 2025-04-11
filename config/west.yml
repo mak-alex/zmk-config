@@ -56,6 +56,6 @@ manifest:
     - name: zmk-totem-shield
       remote: totem
       revision: main
-      clone-depth: 1
+      path: modules/zmk-totem-shield
   self:
     path: config
