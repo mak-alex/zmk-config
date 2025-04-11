@@ -11,7 +11,9 @@ manifest:
     - name: m165437
       url-base: https://github.com/M165437
     - name: totem
-      url-base: https://github.com/GEIGEIGEIST
+      url-base: https://github.com/GEIGEIGEIST/
+    - name: zmk-config-totem
+      url-base: https://github.com/GEIGEIGEIST/zmk-config-totem 
   projects:
     - name: zephyr
       remote: zmkfirmware
