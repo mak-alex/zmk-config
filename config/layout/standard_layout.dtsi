@@ -510,7 +510,7 @@
     // ├───────┬───────┬───────┬───────┬───────┬───────┤                      ├───────┬───────┬───────┬───────┬───────┬───────┤
     // │       │       │       │       │       │       │                      │   ?   │   +   │   -   │   .   │   /   │   \   │
     // ├───────╆━━━━━━━╈━━━━━━━╈━━━━━━━╈━━━━━━━╈━━━━━━━┪ ┌───────╮  ╭───────┐ ┢━━━━━━━╈━━━━━━━╈━━━━━━━╈━━━━━━━╈━━━━━━━╅───────┤
-    // │       ┃   `   ┃       ┃       ┃       ┃       ┃ │  HYP  │  │  HYP  │ ┃   &   ┃   <   ┃   =   ┃   >   ┃   |   ┃   #   │
+    // │       ┃   `   ┃   '   │       ┃       ┃       ┃ │  HYP  │  │  HYP  │ ┃   &   ┃   <   ┃   =   ┃   >   ┃   |   ┃   #   │
     // ├───────╊━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫ ├───────┤  ├───────┤ ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╉───────┤
     // │   `   ┃   󰘴   ┃   󰘵   ┃   󰘳   ┃   󰘶   ┃       ┃ │  MEH  │  │  MEH  │ ┃   [   ┃   (   ┃   :   ┃   )   ┃   ]   ┃   %   │
     // ├───────╊━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫ ├───────┤  ├───────┤ ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╉───────┤
@@ -523,7 +523,7 @@
       display-name = "mSYM";
       bindings = <LAYER_ADAPTER(
         &none,     &none,     &none,     &none,     &none,     &none,                              &kp QMARK, &kp PLUS,  &kp MINUS, &kp DOT,  &kp FSLH,  &kp BSLH,
-        &none,     &kp GRAVE,     &none,     &kp PLUS,  &kp MINUS,     &none,      &kp LHYP,    &kp RHYP,  &kp AMPS,  &kp LT,    &kp EQUAL, &kp GT,   &kp PIPE,  &kp HASH,
+        &none,     &kp GRAVE,     &kp SQT,     &kp PLUS,  &kp MINUS,     &none,      &kp LHYP,    &kp RHYP,  &kp AMPS,  &kp LT,    &kp EQUAL, &kp GT,   &kp PIPE,  &kp HASH,
         &none,     &kp LHRM4, &kp LHRM3, &kp LHRM2, &kp LHRM1, &none,      &kp LMEH,    &kp RMEH,  &kp LBKT,  &kp LPAR,  &kp COLON, &kp RPAR, &kp RBKT,  &kp PRCNT,
         &kp GLOBE, &none,     &none,     &none,     &none,     &none,      &kp HOME,    &kp PG_UP, &kp DLLR,  &kp LBRC,  &kp STAR,  &kp RBRC, &kp CARET, &kp EXCL,
                    &none,     &none,     &none,     &none,     &tog L_SYM, &kp END,     &kp PG_DN, &kp AT,    &kp SPACE, &none,     &none,    &molock
